@@ -14,8 +14,11 @@
 	<name>grupog6</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
-	</properties>
+  <java.version>11</java.version>
+  <maven.compiler.source>11</maven.compiler.source>
+  <maven.compiler.target>11</maven.compiler.target>
+</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
